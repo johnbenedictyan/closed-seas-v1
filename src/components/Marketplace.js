@@ -1,9 +1,9 @@
-import Navbar from "./Navbar";
-import NFTTile from "./NFTTile";
-import MarketplaceJSON from "../Marketplace.json";
 import axios from "axios";
 import { useState } from "react";
+import MarketplaceJSON from "../Marketplace.json";
 import { GetIpfsUrlFromPinata } from "../utils";
+import Navbar from "./Navbar";
+import NFTTile from "./NFTTile";
 
 export default function Marketplace() {
   const sampleData = [

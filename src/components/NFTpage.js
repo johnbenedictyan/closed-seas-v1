@@ -82,7 +82,7 @@ export default function NFTPage(props) {
     data.image = GetIpfsUrlFromPinata(data.image);
 
   return (
-    <div style={{ "minHeight": "100vh" }}>
+    <div style={{ minHeight: "100vh" }}>
       <Navbar></Navbar>
       <div className="flex ml-20 mt-20">
         <img src={data.image} alt="" className="w-2/5" />
